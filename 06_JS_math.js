@@ -16,5 +16,57 @@ function RandInt(min, max) {
 console.log(RandInt(9,15));
 
 // Power & Roots
+(Math.pow(2,3));
+
+console.log(Math.sqrt(25));
+
+console.log(Math.log(Math.E));
+
+//  Print a Fibonacci series 
+
+function printfibonacci(n) {
+    let a = 0, b= 1, c;
+    console.log(a);
+    console.log(b);
+
+    for(i =0; i<n; i++) {
+        c = a+b;
+        console.log(c);
+        a=b;
+        b=c;   
+    }
+    
+    
+}
+
+printfibonacci(5);
+
+// JS Booleans
+// A JavaScript Boolean represents one of two values: true or false.
+let x = 5;
+let y = 10
+
+console.log(x === y);
+console.log(x != y);
+console.log(x && y);
+ 
+// Conditional Operator
+
+function Age(age) {
+    return age < 18 ? "too young" : "too old"
+}
+console.log(Age(25));
+
+//  Add two number 
+ function add_number(a , b) {
+    return a+b;
+ }
+ console.log(add_number(5,2));
+ 
+
+
+
+
+
 
 
