@@ -62,6 +62,12 @@ console.log(age);
 
 // JS Error 
 
+undefinedFunction();
+// Error Handling 
+// throw,try,catch..finally
+
+
+
 
 
 
